@@ -76,6 +76,10 @@ machine qemu
 #machine Acer-Revo-M1-601		# Acer Revo M1-601
 #machine Lenovo-T420s			# Lenovo T420s Laptop
 #machine Lenovo-T430s			# Lenovo T430s Laptop
+#machine Asus-A4110			# Asus A4110 All-in-one
+#machine Asus-ET1620			# Asus ET1620 All-in-one
+#machine Asus-V161GA			# Asus V161GA All-in-one
+#machine Shuttle-X50V2			# Shuttle X50V2 All-in-one
 
 
 #!!Wireless Stuff
