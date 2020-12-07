@@ -1,7 +1,20 @@
-AUDIO_LEVEL=90
+AUDIO_LEVEL=0
 MIC_LEVEL=0
-SESSION_0_TYPE=xfwm4
+RECONNECT_PROMPT=AUTO15
+WORKSPACE=1
+ALWAYS_ENTER_SERVER=Off
+ALLOW_EXIT=Off
+SESSION_0_TYPE=freerdp
+SESSION_0_FREERDP_SERVER=9gbbebncsv1049.national.core.bbc.co.uk
+SESSION_0_FREERDP_OPTIONS="/gdi:hw /rfx /gfx:AVC420 -decorations -toggle-fullscreen"
 SESSION_0_AUTOSTART=on
+SCREEN_BLANK_TIME=0
+SCREEN_STANDBY_TIME=0
+SCREEN_SUSPEND_TIME=0
+SCREEN_OFF_TIME=0
+#DONT_VT_SWITCH_STATE=ON
+#DONT_ZAP_STATE=ON
+FREERDP_CERTIGNORE=ON
 XFWM4_COMPOSITING=true
 XFWM4_RED=0
 XFWM4_GREEN=0
@@ -25,8 +38,8 @@ NET_USE=BOTH
 NET_USE_DHCP=on
 NET_HOSTNAME=ts_*
 NET_TELNETD_ENABLED=ON
-TIME_ZONE=America/Los_Angeles
-NET_TIME_SERVER=us.pool.ntp.org
+TIME_ZONE=Europe/London
+NET_TIME_SERVER=ntp.reith.bbc.co.uk
 NET_REMOTE_ACCESS_FROM="0.0.0.0"
 TFTP_BLOCKSIZE=1024
 BIND_MOUNT0="storage:/mnt/storage"
@@ -36,6 +49,7 @@ LOCALE=en_US
 MOUNT_0="LABEL=boot     /boot           auto    x-mount.mkdir,defaults  0       0"
 MOUNT_1="LABEL=home     /root           auto    x-mount.mkdir,defaults  0       0"
 MOUNT_2="LABEL=swap     swap            swap    defaults        0       0"
+MOUNT_3="LABEL=storage /mnt		auto	defaults,ro	0	0"
 SET_RESOLUTION_MULTIMONITOR_EXPAND='mirror'
 SET_RESOLUTION_MULTIMONITOR_AUTOSCALE='scale'
 
